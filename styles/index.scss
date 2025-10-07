@@ -3,9 +3,8 @@
 @import '_bold-josefinsans.scss';
 @import '_reg-josefinsans.scss';
 @import '_reg-aleo.scss';
-@import '_media-queries.scss';
 
-.body {
+html, body {
     height: auto;
     min-height: 100vh;
     overflow-y: auto;
@@ -302,7 +301,7 @@
     opacity: 0.9;
     text-align: left;
     padding-left: 32px;
-    /* margin-left: 100px; this places the item correctly on my screen but not on others, will try to fix if i have time later */
+    /* margin-left: 100px; this places the item correctly on my screen but not on bigger ones, will try to fix if i have time later */
 }
 
 .p-8 {
@@ -436,3 +435,5 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+@import '_media-queries.scss';
