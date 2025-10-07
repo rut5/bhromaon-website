@@ -381,10 +381,13 @@ html, body {
     align-items: center;
 }
 
+/* i had to change min-height to height (both boxes) and overflow for the favicon to work in all browsers,
+dont know why and the image looks a little weird now */
 .box-6-1 {
-    min-height: 284px;
+    height: 284px;
     max-width: 445px;
     width: 100%;
+    overflow: hidden;
 }
 
 .box-6-2 {
@@ -393,13 +396,12 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: 284px;
+    height: 284px;
     max-width: 668px;
     width: 100%;
     padding-left: 59px;
     padding-right: 25px;
     text-align: left;
-    margin-bottom: 5px; /* i dont know why but i needed to add this for the boxes to align */
 }
 
 .p-12 {
