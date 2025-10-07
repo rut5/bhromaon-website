@@ -109,3 +109,50 @@
     letter-spacing: 2.8px;
     margin-bottom: 8px;
 }
+
+.header {
+    background-color: #5474FD;
+    min-height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.p-5 {
+    font-size: 24px;
+    letter-spacing: 2.4px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 60%;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 20px;
+  max-width: 525px;
+  width: 100%;
+}
+
+.nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    transition-duration: 0.8s;
+}
