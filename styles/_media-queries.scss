@@ -1,0 +1,32 @@
+/* min 320px max 600px */
+
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+
+    .body {
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    }
+
+    /* all sections */
+        .section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
+        min-height: auto;
+    }
+
+    /* all fonts */
+        .p-1 {
+            font-size: 20px;
+        }
+
+        .p-2 {
+            font-size: 13px;
+        }
+    
+    /* Section 1 */
+    .box-1-1 {
+        height: auto;
+        max-width: 320px;
+    }
+
+}
