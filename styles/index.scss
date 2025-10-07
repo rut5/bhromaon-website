@@ -3,7 +3,6 @@
 @import '_bold-josefinsans.scss';
 @import '_reg-josefinsans.scss';
 @import '_reg-aleo.scss';
-@import '_reg-roboto.scss';
 
 .body {
     height: auto;
@@ -369,4 +368,70 @@
     opacity: 0.9;
     text-align: left;
     padding-left: 32px;
+}
+
+.section-6 {
+    background-image: url('../images/image-5.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 731px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6-1 {
+    min-height: 284px;
+    max-width: 445px;
+    width: 100%;
+}
+
+.box-6-2 {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 284px;
+    max-width: 668px;
+    width: 100%;
+    padding-left: 59px;
+    padding-right: 25px;
+    text-align: left;
+    margin-bottom: 5px; /* i dont know why but i needed to add this for the boxes to align */
+}
+
+.p-12 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 49px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #232323;
+    min-height: 271px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.f-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    align-items: center;
+}
+
+.f-margin {
+    margin-top: 20px;
+}
+
+.fa-brands {
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
